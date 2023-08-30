@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-image: url('../../assest/baller.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.hambugger{
+    display: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    height: 50px;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.nav{
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    color: antiquewhite;
+    
+}
+
+.bar a{
+    text-decoration: none;
+    padding-left: 30px;  
+    font-size: 1.3em;
+    color: white;
+    font-weight: 800;
+}
+
+.bar a:hover{
+    text-decoration: underline;
+    color: darkgray;
+}
+.text{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h1{
+    font-size: 7em;
+    padding: 150px 0 50px 60px ;
+    color: white;
+}
+span{
+    background-color: gray;
+}
+
+.text p{
+    color: gray;
+    font-weight: 900;
+    padding: 0px 0 50px 60px ;
+}
+
+.more{
+    margin: 0 60px ;
+    padding: 20px 60px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    font-size: 1em;
+}
+@media screen and (width < 961px) {
+    .text h1{
+        font-size: 6em;
+        padding: 100px 0 30px 60px ;
+        color: white;
+    }
+}
+
+@media screen and (width > 632px){
+    .body{
+        background-position: center;
+    }
+    .text h1{
+        font-size: 4em;
+        padding: 120px 0 30px 30px ;
+        color: white;
+    }
+}
+
+@media screen and (width < 633px) {
+    .body{
+        background-image: url('../../assest/baller.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        width: 100%;
+        border: 1px solid red;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+        height: 50px;
+        padding-top: 30px;
+        align-items: center;
+    }
+    .bar a{
+        display: none;
+    }
+    .hambugger{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .text h1{
+        font-size: 3em;
+        padding: 120px 0 30px 30px ;
+        color: white;
+    }
+    .text p{
+        
+        padding: 0px 0 30px 30px ;
+    }
+    .more{
+        margin: 0 60px ;
+        padding: 10px 40px;
+        background-color: transparent;
+        border: 3px solid white;
+        color: white;
+        font-size: 1em;
+    }
+    
+}

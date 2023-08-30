@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    background-color: black;
+    height: 40vh;
+}
+
+.logo{
+    /* border-right: 2px solid white;
+    border-left: 2px solid white; */
+    color: antiquewhite;
+    padding: 20px 0;
+
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    color: white;
+}
+
+.net h3{
+    padding: 20px 0;
+}
+
+.net p{
+    padding: 10px 0;
+}
+
+.c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 11px;
+}
+
+.c img{
+    width: 20px;
+    height: 23px;
+    padding-right: 5px;
+}
+
+form{
+    padding: 10px 0;
+}
+
+form label{
+    padding: 0px 10px ;
+}
+
+form input{
+    margin: 10px 0;
+}
+
+.send{
+    padding: 7px 12px;
+    /* margin-top: 100px;  */
+}

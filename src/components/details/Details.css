@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.detail{
+    /* height: 200vh; */
+}
+
+.btn button{
+    margin: 30px 730px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 60px;
+    font-size: 1.5em;
+    color: rgb(141, 55, 23);
+}
+
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(254, 250, 246);
+}
+
+.image img{
+    width: 100%;
+    height: 80vh;
+}
+
+.test{
+    width: 50%;
+    /* padding: 0 60px; */
+    /* margin: 0 auto; */
+}
+.test h1{
+    color: rgb(141, 55, 23);
+    margin-top: -300px;
+    font-size: 3em;
+    padding-left: 100px ;
+    padding-top: 250px;
+}
+
+.test p{
+    color: rgb(141, 55, 23);
+    font-size: 20px;
+    padding: 30px 100px ;
+
+}
+.test button{
+    margin: 30px 0 0 0;
+    padding: 30px 60px;
+    font-size: 1.5em;
+    color: rgb(141, 55, 23);
+}
+
+
+.image1 img{
+    width: 100%;
+    height: 80vh;
+    padding-top: 20px;
+}
+
+.test1{
+    width: 50%;
+    padding-top: 50px;
+
+}
+
+.test1 h1{
+    color: rgb(141, 55, 23);
+    margin-top: -300px;
+    font-size: 3em;
+    padding-left: 0px ;
+    padding-top: 250px;
+}
+
+.test1 p{
+    color: rgb(141, 55, 23);
+    font-size: 20px;
+    padding: 30px 0px ;
+
+}
+.test1 button{
+    margin: 30px 0 0 0;
+    padding: 30px 60px;
+    font-size: 1.5em;
+    background: rgb(141, 55, 23);
+    color: white;
+}
